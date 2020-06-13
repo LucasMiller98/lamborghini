@@ -1,0 +1,69 @@
+@charset UTF-8;
+/* Para todo o cabeçalho ficar no meio */
+header#cabecalho {
+	/* Configura a primeira imagem da  lamborghini e os titulos: h1 e h2 */
+	text-align: center;
+	/* para criar uma sobra com uma cor no fundo */
+	text-shadow: 1px 9px 7px rgba(184, 134, 11, 1); 
+}
+header#cabecalho h1{
+	font-size: 50px;
+	font-family: Arial, sans-serif;
+	margin: 10px;
+}
+header#cabecalho h2{
+	font-size: 40px;
+	font-family: Arial, sans-serif;
+	margin: 11px; 
+}
+section#corpo img#imgLambo {
+	opacity: 1;
+	border-radius: 90%;
+}
+img:hover{
+	box-shadow: 0 0 6px rgba(184, 134, 11, 1);
+}
+/* Configurações de toda dos textos */
+section#corpo {
+	position: absolute;
+	text-align: justify;
+	text-justify: inter-word;
+	top: 90px;
+	right: 100px;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 90px;
+	margin: 20px;
+	font-size: 30px;
+	font-style: italic;
+	font-family: Arial;
+}
+section#corpo div.limite {
+	margin-left: 20px;
+	text-align: justify;
+	text-justify: inter-word;
+	padding-left: 15px;
+	padding-right: 20px;
+	margin-top: 50px;
+	text-align: center;
+	box-shadow: 0 0 0 6px rgba(184, 134, 11, 1);
+}
+section#corpo img.lamborghini {
+	width: 789px;
+}
+section#corpo img#lamborghiniHuracan {
+	width: 797px;
+}
+/* Configuração das classes de figcaption */
+section#corpo figcaption.lambo{
+	font-size: 10px;
+}
+footer{
+	position: relative;
+	margin-top: 8940px;
+	padding-left: 140px;
+	margin-right: 980px;
+	top: 1120px;
+	left: 5px;
+	text-decoration: underline;
+}
